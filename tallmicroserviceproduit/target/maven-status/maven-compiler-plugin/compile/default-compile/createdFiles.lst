@@ -1,0 +1,4 @@
+com\example\tallmicroserviceproduit\web\ProduitRestController.class
+com\example\tallmicroserviceproduit\Entities\Produit.class
+com\example\tallmicroserviceproduit\TallmicroserviceproduitApplication.class
+com\example\tallmicroserviceproduit\dao\ProduitRepository.class
