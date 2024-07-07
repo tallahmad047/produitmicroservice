@@ -17,7 +17,7 @@ public class TallmicroserviceproduitApplication implements CommandLineRunner {
     }
     @Override
     public  void run (String... args)  throws Exception{
-      /*  produitRepository.save(new Produit(null,"splina",22760,30,
+      produitRepository.save(new Produit(null,"splina",22760,30,
                 "liquide chlorophyle","splina.jpg","Boison"));
         produitRepository.save(new Produit(null,"Mocha",42760,10,
                 "cafe resistance","mocha.jpg","Cafe"));
@@ -25,7 +25,7 @@ public class TallmicroserviceproduitApplication implements CommandLineRunner {
                 "chocolat chaud","c.jpg","Chocolat"));
         produitRepository.findAll().forEach(p->{
             System.out.println(p.toString());
-        });*/
+        });
     }
 
 }

@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: postgres-configmap
+  namespace: produitmicroservice
 data:
   host: "postgres"
   name: "backendservice"
